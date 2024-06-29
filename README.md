@@ -63,4 +63,4 @@ To implement digital data capturing for in-process inspection, we will utilize a
 6. **Go Live:** Implement the system across all inspection points.
 
 By following this approach, we can streamline the inspection process, reduce manual errors, and provide real-time data for analysis and decision-making.
->>>>>>> a093016 (feat:init along with auth)
+
