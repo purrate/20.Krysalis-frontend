@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Krysalis-frontend
-=======
 # InspTrack
 Digital Inspection Management System
 To implement digital data capturing for in-process inspection, we will utilize a tablet to record and manage data. The following outlines the approach, process, and reports for the implementation:
