@@ -114,7 +114,7 @@ const Home = () => {
                             {' '}
                             <ProcessHolder processName="Machining" operatorName={'Pawan'} />
                             <ProcessHolder processName="Grilling" operatorName={'Jey'} />
-                            <ProcessHolder processName="Cutting" operatorName={'Samridhi'} />
+                            <ProcessHolder processName="Cutting" operatorName={'Samrddhi'} />
                             <ProcessHolder processName="Grinding" operatorName={'Ananya'} />
                         </div>
                     </div>
