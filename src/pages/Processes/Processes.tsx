@@ -12,7 +12,7 @@ const Processes = () => {
             machineName: 'Machine X',
             drawingIssueNo: 202,
             operationNo: 1,
-            operationName: 'Machinig',
+            operationName: 'Machining',
             materialDetails: 303,
         },
         {
@@ -32,7 +32,7 @@ const Processes = () => {
             machineName: 'Machine X',
             drawingIssueNo: 202,
             operationNo: 1,
-            operationName: 'Machinig',
+            operationName: 'Machining',
             materialDetails: 303,
         },
         {
@@ -63,7 +63,7 @@ const Processes = () => {
                 style={{ boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.08)' }}
             >
                 <div className='flex justify-between'>
-                    <p className='ml-12 text-3xl font-bold'>Processes</p>
+                    <p className='ml-12 text-3xl font-bold'>Currently Registered Processes</p>
                     <div>
                         <div
                             style={{ boxShadow: '0px 10px 30px rgba(100, 100, 250, 0.5)' }}

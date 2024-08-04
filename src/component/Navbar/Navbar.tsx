@@ -76,26 +76,42 @@ export const Navbar = () => {
                                         ? 'text-[#7272f1]'
                                         : 'text-[#838383]'
                                     }`}
+                                style={{ whiteSpace: 'nowrap' }}
                                 onClick={(e) => {
                                     window.location.href = '/machines';
                                     const target = e.target as HTMLElement;
                                     setCurrent(`${target.innerHTML}`);
                                 }}
                             >
-                                Machines
+                                Machine Master
                             </div>
                             <div
                                 className={`h-[40px] w-full flex items-center cursor-pointer  font-medium ${current == 'processes'
                                         ? 'text-[#7272f1]'
                                         : 'text-[#838383]'
                                     }`}
+                                style={{ whiteSpace: 'nowrap' }}
                                 onClick={(e) => {
                                     window.location.href = '/processes';
                                     const target = e.target as HTMLElement;
                                     setCurrent(`${target.innerHTML}`);
                                 }}
                             >
-                                Processes
+                                Process Master
+                            </div>
+                            <div
+                                className={`h-[40px] w-full flex items-center cursor-pointer  font-medium ${current == 'processes'
+                                        ? 'text-[#7272f1]'
+                                        : 'text-[#838383]'
+                                    }`}
+                                style={{ whiteSpace: 'nowrap' }}
+                                onClick={(e) => {
+                                    window.location.href = '/operator';
+                                    const target = e.target as HTMLElement;
+                                    setCurrent(`${target.innerHTML}`);
+                                }}
+                            >
+                                Operation Master
                             </div>
                             
                         </div>

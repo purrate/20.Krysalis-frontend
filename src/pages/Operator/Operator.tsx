@@ -1,45 +1,39 @@
-import React from 'react';
-import MachineCard from '../../component/MachineCard/MachineCard';
+import OperatorCard from '../../component/OperatorCard/OperatorCard';
 import { useNavigate } from 'react-router-dom';
 
 
-const Machines = () => {
+const Operator = () => {
     const navigate=useNavigate()
-    const machines = [
+    const operators = [
         {
-            id: 1,
-            name: 'Traub Machine',
-            process: 'Milling',
-            number: 123,
-            difficulty: 'medium',
+            id: 210,
+            name: 'John Doe',
+            machine: 'Milling',
+            specification: ''
         },
         {
-            id: 2,
-            name: 'CNC Machine',
-            process: 'Turning',
-            number: 456,
-            difficulty: 'hard',
+            id: 326,
+            name: 'Jane Doe',
+            machine: 'Grinding',
+            specification: ''
         },
         {
-            id: 1,
-            name: 'Traub Machine',
-            process: 'Milling',
-            number: 123,
-            difficulty: 'medium',
+            id: 210,
+            name: 'John Doe',
+            machine: 'Milling',
+            specification: ''
         },
         {
-            id: 2,
-            name: 'CNC Machine',
-            process: 'Turning',
-            number: 456,
-            difficulty: 'hard',
+            id: 326,
+            name: 'Jane Doe',
+            machine: 'Grinding',
+            specification: ''
         },
         {
-            id: 2,
-            name: 'CNC Machine',
-            process: 'Turning',
-            number: 456,
-            difficulty: 'hard',
+            id: 210,
+            name: 'John Doe',
+            machine: 'Milling',
+            specification: ''
         },
     ];
     return (
@@ -49,23 +43,23 @@ const Machines = () => {
                 style={{ boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.08)' }}
             >
                 <div className='flex justify-between'>
-                    <p className='ml-12 text-3xl font-bold'>Currently Registered Machines</p>
+                    <p className='ml-12 text-3xl font-bold'>Currently Registered Operators</p>
                     <div>
                         <div
                             style={{ boxShadow: '0px 10px 30px rgba(100, 100, 250, 0.5)' }}
                             onClick={() => {
-                                navigate('/createmachines');
+                                navigate('/createoperator');
                             }}
                             className="h-[50px] w-[200px] rounded-[5px] flex flex-row justify-center items-center text-white font-semibold cursor-pointer transition-all bg-[#473fd3] hover:bg-[#7a89e0]"
                         >
-                            Create a Machine
+                            Create an Operator
                         </div>
                     </div>
                 </div>
 
                 <div className="w-full flex flex-wrap gap-16 gap-y-8 p-12">
-                    {machines.map((machine) => (
-                        <MachineCard key={machine.id} machine={machine} />
+                    {operators.map((operator) => (
+                        <OperatorCard key={operator.id} operator={operator} />
                     ))}
                 </div>
             </div>
@@ -75,6 +69,4 @@ const Machines = () => {
 
 };
 
-export default Machines;
-
-
+export default Operator;

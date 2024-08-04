@@ -8,6 +8,9 @@ import Machines from './pages/Machines/Machines';
 import Processes from './pages/Processes/Processes';
 import Home from './pages/Home/Home';
 import CreateProcess from './pages/CreateProcess/CreateProcess';
+import CreateMachine from './pages/CreateMachine/CreateMachine';
+import Operator from './pages/Operator/Operator';
+import CreateOperator from './pages/CreateOperator/CreateOperator';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="machines" element={<Machines />} />
           <Route path="processes" element={<Processes />} />
           <Route path="createprocesses" element={<CreateProcess/>} />
+          <Route path="createmachines" element={<CreateMachine/>} />
+          <Route path="operator" element={<Operator/>} />
+          <Route path="createoperator" element={<CreateOperator/>} />
         </Route>
       </Routes>
     </div>

@@ -199,13 +199,6 @@ const CreateProcess = () => {
                                 onClick={open}
                                 className="h-[50px] w-[200px] rounded-[5px] flex flex-row justify-center items-center text-white font-semibold cursor-pointer transition-all bg-[#473fd3] hover:bg-[#7a89e0] mb-12"
                             >
-                                Scan Machine QR
-                            </div>
-                            <div
-                                style={{ boxShadow: '0px 10px 30px rgba(100, 100, 250, 0.5)' }}
-                                onClick={open}
-                                className="h-[50px] w-[200px] rounded-[5px] flex flex-row justify-center items-center text-white font-semibold cursor-pointer transition-all bg-[#473fd3] hover:bg-[#7a89e0]"
-                            >
                                 Scan Process QR
                             </div>
                         </div>
